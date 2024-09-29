@@ -1,0 +1,16 @@
+@media (min-width: 400px) {
+	nav ul {
+		flex-direction: row;
+	}
+	nav ul li {
+		flex: 1;
+	}
+}
+
+@media (min-width: 800px){
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    }
+}
