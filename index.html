@@ -6,26 +6,50 @@
     <meta name="author" content="Eliezar Gongora">
     <meta name="description" content="WDD 230 - Web Frontend Development, Eliezar Gongora">
     <title>ELIEZAR GONGORA - WDD230 - Web frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
-    <header>    
-        <img src=""
+    <header class="header">    
+        <img src="images/IMG_0373.jpg">
+        <span> Eliezar Gongora</span>
     </header>
 
     <nav>
-        <a href=""></a>home</href>
-        <a href=""></a>chamber</href>
-        <a href=""></a>site plan</href>
-        <a href=""></a>form</href>
-
+        <ul>
+            <li><a  class="active" href="">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="">Site plan</a></li>
+            <li><a href="">Form</a></li>
+        </ul>
     </nav>
 
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
-    </main>
-    
-    <footer>
+        
+        <div>
+        <section class="card">
+            <h2 class="header">Learning Activities</h2>
+            <ul>
+                <li>Week 01
+                    <a href="">Layout</a> |
+                    <a href="">Media Query</a> |
+                </li>
+                <li>Week 02</li>
+            </ul>
 
+        </section>
+
+        <section class="card">
+            <h2 class="header">Information</h2>
+        </section>
+        </div>
+    </main> 
+    
+     <footer>
+        <p>&copy; 2024<br>Eliezar Gongora</p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>
