@@ -61,5 +61,8 @@ a.active{
 
 footer{
     text-align: center;
-
+	margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+	box-shadow: 0 0 10px 1px #777;
 }

@@ -5,12 +5,38 @@
 	nav ul li {
 		flex: 1;
 	}
+	div{
+        display: grid;
+		margin-left: 25px;
+		margin-right: 25px;
+	
+        column-gap: 15px;
+    }
+	
 }
+
 
 @media (min-width: 800px){
     div{
         display: grid;
+		margin-left: 25px;
+		margin-right: 25px;
+		
         grid-template-columns: 2fr 1fr;
         column-gap: 15px;
     }
+	
 }
+
+
+.card {
+	margin: 0;
+	margin-bottom: 25px;
+	box-shadow: 0 0 10px 1px #777;
+}
+
+	
+
+a.active{
+    background-color:rgba(255,255,255, 0.5) ;
+} 
