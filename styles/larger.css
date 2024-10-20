@@ -1,42 +1,33 @@
-@media (min-width: 400px) {
+@media screen and (min-width: 640px) {
+	
 	nav ul {
 		flex-direction: row;
 	}
 	nav ul li {
 		flex: 1;
 	}
-	div{
-        display: grid;
+	main{
+		display: grid;
 		margin-left: 25px;
 		margin-right: 25px;
-	
         column-gap: 15px;
-    }
-	
-}
+		grid-template-columns: 2fr 1fr;
+	}
 
+	.hero{
+		grid-column: span 2;
+	}
 
-@media (min-width: 800px){
-    div{
-        display: grid;
-		margin-left: 25px;
-		margin-right: 25px;
+	.card {
+		margin: 0;
+		margin-bottom: 25px;
+		box-shadow: 0 0 10px 1px #777;
 		
-        grid-template-columns: 2fr 1fr;
-        column-gap: 15px;
-    }
-	
-}
-
-
-.card {
-	margin: 0;
-	margin-bottom: 25px;
-	box-shadow: 0 0 10px 1px #777;
-}
+	}
 
 	
+	a.active{
+    	background-color:rgba(255,255,255, 0.5) ;
+	} 
 
-a.active{
-    background-color:rgba(255,255,255, 0.5) ;
-} 
+}	
