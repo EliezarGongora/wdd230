@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/navigationbutton.js"defer></script>
     <link rel="icon" href="images/favicon.ico">
 
@@ -22,38 +23,61 @@
     <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<main>
-    <form method="get" action="thanks.html" class="wf1">
-        <fieldset>
-            <legend>Applicant Information</legend>
-            <label>First Name* <input type="text" name="fname" required></label>
-            <label>Last Name* <input type="text" name="lname" required></label>
-            <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-            <label>Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
-            <label>Website <input type="url" name="url" placeholder="https://"></label>
-        </fieldset>
-
-</main>
-
 <body>
 
     <header class="header">    
-        <img src="images/IMG_0373.jpg" alt="profile-pic">
-        <span> Eliezar Gongora</span>
+        <img src="images/zacatecoluca.webp" alt="profile-pic">
+        <span>ZACATECOLUCA Chamber of commerce</span>
     </header>
-
-    
 
     <nav class="navigation">
         <button type="button" id="menu"></button>
         <ul>
-            <li><a  href="index.html" href="">Home</a></li>
+            <li><a  href="../index.html" href="">Home</a></li>
             <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="week01/Chamber-site-plan.html">Site plan</a></li>
-            <li><a href="#">Form</a></li>
+            <li><a href="../week01/chamber-site-plan.html">Site plan</a></li>
+            <li><a href="../form.html">Form</a></li>
         </ul>
     </nav>
 
+
+    <main>
+
+        <form method="get" action="thankyou.html" class="ccf">
+            <label for="fname">First Name* <input type="text" name="fname" id="fname" required></label>
+            <label for="lname">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label for="ti-pos">Title or Position <input type="text" name="ti-pos" id="ti-pos"
+                    pattern="[a-zA-Z\-\s]{7,}">
+            </label>
+            <label for="email">Email* <input type="email" name="email" id="email" placeholder="someone@mail.com"
+                    required></label>
+            <label for="phone">Phone* <input type="tel" name="phone" id="phone" required></label>
+            <label for="bus-org">Business/Organization's Name <input type="text" name="bus-org" id="bus-org"
+                    required></label>
+                <label for="membership">Membership Level
+                <select name="membership" id="membership">
+                    <option value="" disabled selected>Please Select</option>
+                        option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <div id="membership-benefit"></div>
+            <label for="description">Business/Organization's Description
+                <textarea name="description" id="description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+            <label for="join"><input type="submit" value="Join" id="join"></label>
+           </form>
+        
+    
+    </main>
+
+  
+
+    
+   
     
     
      <footer>

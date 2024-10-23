@@ -21,9 +21,9 @@
 </head>
 <body>
    
-    <header class="header">    
+    <header class="header">   
+
         <h1>Zacatecoluca Chamber of Commerce</h1>
-        <button>JOIN NOW!</button>
 
     </header>
 
@@ -33,14 +33,20 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="index.html">Chamber</a></li>
             <li><a href="../week01/Chamber-site-plan.html">Site plan</a></li>
-            <li><a href="#">Form</a></li>
+            <li><a href="../form.html">Form</a></li>
         </ul>
     </nav>
 
     <main>
-        <img src="images/zacatecoluca.jpg" alt="hero image"> 
-        
-        
+
+        <div class="hero">  
+            <picture>
+                <img src="images/zacatecoluca.webp" alt="san salvador" width="1280" height="640">
+            </picture>
+
+                <button type= "button" id="join">
+                    <a href="join.html">JOIN NOW !</a>
+         </div>        
 
         <div>
         <section class="card">
@@ -62,14 +68,12 @@
     </main> 
     
      <footer>
-        <div>
-            <h1>Contact Information</h1>
-        </div>
-        
         <p>&copy; 2024<br>Eliezar Gongora</p>
         <p>This is a proyect for Wdd230</p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/navigationbutton.js"></script>
+    <script src="scripts/joinbutton.js"></script>
 </body>
 </html>
