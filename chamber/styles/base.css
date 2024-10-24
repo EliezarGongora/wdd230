@@ -141,6 +141,79 @@ iframe{
     
 }
 
+
+
+form {
+    margin: auto;
+    margin-top: 1rem;
+    width: 90%;
+    max-width: 600px;
+}
+
+fieldset {
+    border: var(--border-color);
+    border-radius: 5px;
+}
+
+form label:not(:first-child) {
+    display: block;
+    padding-top: 1rem;
+}
+
+form input {
+    display: block;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=email] {
+    padding: 0.75rem;
+    width: 92%;
+    max-width: 375px;
+    border-radius: 6px;
+}
+
+form input:required {
+    border-top: solid 3px orangered;
+}
+
+form input:required:valid {
+    border-top: solid 2px green;
+}
+
+form input[type=range] {
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type=submit] {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    border: var(--border-color);
+    border-radius: 6px;
+}
+
+.information textarea {
+    padding: 0.5rem;
+    width: 94%;
+    max-width: 381px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.information input[type=submit] {
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: navy;    ;
+    color: #fff;
+}
+
 footer{
     text-align: center;
 	margin: 20px;

@@ -1,8 +1,9 @@
-:root {
+/* :root {
     --border-color: 1px solid #f76767;
 }
 
 form {
+    
     margin: auto;
     margin-top: 1rem;
     width: 90%;
@@ -33,7 +34,7 @@ form input[type=email] {
 }
 
 form input:required {
-    border-top: solid 2px red;
+    border-top: solid 3px orangered;
 }
 
 form input:required:valid {
@@ -54,8 +55,30 @@ form input[type=submit] {
     border-radius: 6px;
 }
 
+.information textarea {
+    display: block;
+    padding: 0.5rem;
+    width: 94%;
+    max-width: 381px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.information input[type=submit] {
+    display: block;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+    background-color: navy;    ;
+    color: #fff;
+}
+
 @media screen and (min-width: 640px) {
     form {
         grid-column: span 2;
     }
-}
+} */

@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ellezar Gongora - WDD 230 - Web Frontend Development</title>
 
     <meta name="author" content="Eliezar Gongora">
     <meta name="description" content="WDD 230 - Web Frontend Development, Eliezar Gongora">
@@ -13,7 +12,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/navigationbutton.js"defer></script>
+    <script src="scripts/navigationbutton.js"></script>
     <link rel="icon" href="images/favicon.ico">
 
     <meta property="og:title" content="Web frontend Development">
@@ -33,7 +32,7 @@
     <nav class="navigation">
         <button type="button" id="menu"></button>
         <ul>
-            <li><a  href="../index.html" href="">Home</a></li>
+            <li><a  href="../index.html">Home</a></li>
             <li><a href="chamber/index.html">Chamber</a></li>
             <li><a href="../week01/chamber-site-plan.html">Site plan</a></li>
             <li><a href="../form.html">Form</a></li>
@@ -43,13 +42,13 @@
 
     <main>
 
-        <form method="get" action="thankyou.html" class="ccf">
+        <form method="get" action="thankyou.html" class="information">
             <label for="fname">First Name* <input type="text" name="fname" id="fname" required></label>
             <label for="lname">Last Name* <input type="text" name="lname" id="lname" required></label>
                 <label for="ti-pos">Title or Position <input type="text" name="ti-pos" id="ti-pos"
                     pattern="[a-zA-Z\-\s]{7,}">
             </label>
-            <label for="email">Email* <input type="email" name="email" id="email" placeholder="someone@mail.com"
+            <label for="email">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com"
                     required></label>
             <label for="phone">Phone* <input type="tel" name="phone" id="phone" required></label>
             <label for="bus-org">Business/Organization's Name <input type="text" name="bus-org" id="bus-org"
@@ -57,7 +56,7 @@
                 <label for="membership">Membership Level
                 <select name="membership" id="membership">
                     <option value="" disabled selected>Please Select</option>
-                        option value="np">NP Membership</option>
+                    <option value="np">NP Membership</option>
                     <option value="bronze">Bronze Membership</option>
                     <option value="silver">Silver Membership</option>
                     <option value="gold">Gold Membership</option>
@@ -68,19 +67,12 @@
                 <textarea name="description" id="description"></textarea>
             </label>
             <input type="hidden" name="timestamp" id="timestamp" value="">
-            <label for="join"><input type="submit" value="Join" id="join"></label>
+            <label for="join"><input type="submit" value="Send your form" id="join"></label>
            </form>
-        
-    
+
     </main>
-
-  
-
     
-   
-    
-    
-     <footer>
+   <footer>
         <p>&copy; 2024<br>Eliezar Gongora</p>
         <p id="lastModified"></p>
     </footer>

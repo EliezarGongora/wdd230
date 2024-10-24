@@ -54,6 +54,7 @@ form input[type=submit] {
     border-radius: 6px;
 }
 
+
 @media screen and (min-width: 640px) {
     form {
         grid-column: span 2;
