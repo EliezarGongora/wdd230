@@ -5,6 +5,13 @@ const button = document.querySelector('button');
 const list = document.querySelector('#list');
 let chaptersArray = getChapterList() || [];
 
+const counterElement = document.getElementById('counter')
+
+const visitsString = localStorage.getItem('asdf') || '0'
+const visits = parseInt(visitsString)
+counterElement.innerText = visits + 1
+localStorage.setItem('asdf', visits + 1)
+
 chaptersArray.forEach(chapter => {
     displayList(chapter);
 });
