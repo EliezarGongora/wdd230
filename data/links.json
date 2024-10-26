@@ -82,7 +82,16 @@
           {
             "url":"https://codepen.io/Eliezar-Gongora/pen/VwoyjYJ",
             "title":"CSS Pseudo-elements"
+          },
+          {
+            "url":"week05/new-ward-members.json",
+            "title":"JSON file"
+          },
+          {
+            "url":"week05/prophets.html",
+            "title":"Latter-day Prophets"
           }
+
         ]
       }
 
