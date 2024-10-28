@@ -1,9 +1,9 @@
 // const devURL = "http://127.0.0.1:5500/"
-const baseURL = "https://eliezargongora.github.io/wdd230/"
-const linksURL = devURL + "data/links.json"
+const baseURL = "https://eliezargongora.github.io/wdd230/data/links.json"
+// const linksURL = devURL + ""
 
 async function getLinks() {
-  const response = await fetch(linksURL);
+  const response = await fetch(baseURL);
   const data = await response.json();
   console.log("ELI'S DATA:", data);
 
