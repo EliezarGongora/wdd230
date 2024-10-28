@@ -4,23 +4,25 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zacatecoluca chamber of commerce</title>
-    <link rel="icon" href="images/favicon.ico">
+
     <meta name="author" content="Eliezar Gongora">
-    <meta name="description" content="Chamber of commerce of my home town in El Salvador">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Eliezar Gongora">
+    <title>ELIEZAR GONGORA - WDD 230 - Web Frontend Development</title>
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="../week05/styles/prophets.css">
+    <link rel="icon" href="images/favicon.ico">
 
-    <meta property="og:title" content="Zacatecoluca chamber of commerce">
+    <meta property="og:title" content="Web frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://eliezargongora.github.io/wdd230/images/elsalvador.png">
-    <meta property="og:url" content="https://eliezargongora.github.io/wdd230/chamber/">
+    <meta property="og:url" content="https://eliezargongora.github.io/wdd230/">
     <meta name="twitter:card" content="summary_large_image">
-
-
 </head>
+
 <body>
-   
+
     <header class="header">   
 
         <h1>Zacatecoluca Chamber of Commerce</h1>
@@ -39,42 +41,21 @@
     </nav>
 
     <main>
+        <div id="cards"></div>
 
-        <div class="hero">  
-            <picture>
-                <img src="images/zacatecoluca.webp" alt="san salvador" width="1280" height="640">
-            </picture>
-
-                <button type= "button" id="join">
-                    <a href="join.html">JOIN NOW !</a>
-         </div>        
-
-        <div>
-        <section class="card">
-            <h2 class="header">Events</h2>
-
-        </section>
-
-        <section class="card">
-            <h2 class="header">Weather</h2>
-        </section>
-
-        </div>
-
-        <div>
-            <section class="spotlights">
-                <h2 class="header">Member spotlight</h2>
-            </section>
-        </div>
-    </main> 
+      </main>
     
-     <footer>
+    <footer>
         <p>&copy; 2024<br>Eliezar Gongora</p>
-        <p>This is a proyect for Wdd230</p>
         <p id="lastModified"></p>
     </footer>
+
     <script src="scripts/getDates.js"></script>
     <script src="scripts/navigationbutton.js"></script>
-    <script src="scripts/joinbutton.js"></script>
+    <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js" ></script>
+    <script src="scripts/visits.js" ></script>
+    <script src="data/members.json" ></script>
+
 </body>
 </html>
