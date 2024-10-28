@@ -1,4 +1,4 @@
-const devURL = "http://127.0.0.1:5500/"
+// const devURL = "http://127.0.0.1:5500/"
 const baseURL = "https://eliezargongora.github.io/wdd230/"
 const linksURL = devURL + "data/links.json"
 
