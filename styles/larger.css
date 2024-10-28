@@ -32,6 +32,13 @@
 		
 	}
 
+	.card2 {
+		margin: 0;
+		margin-bottom: 25px;
+		box-shadow: 0 0 10px 1px #777;
+		
+	}
+
 
 	#menu {
 		display: none; 
