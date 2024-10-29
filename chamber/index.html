@@ -24,6 +24,7 @@
     <header class="header">   
 
         <h1>Zacatecoluca Chamber of Commerce</h1>
+        <button id="dark-mode-toggle">🕶️</button>
 
     </header>
 
@@ -40,6 +41,8 @@
 
     <main>
 
+
+
         <div class="hero">  
             <picture>
                 <img src="images/zacatecoluca.webp" alt="san salvador" width="1280" height="640">
@@ -55,8 +58,14 @@
 
         </section>
 
-        <section class="card">
+        <section class="card2">
             <h2 class="header">Weather</h2>
+            
+                <p id="town" ></p>
+                <img id="icon" src="" alt="">
+                <p id="temperature" ></p>
+                <p id="descriptionw" ></p>
+                <p>Number of Visits: <span id="visits"></span></p>
         </section>
 
         </div>
@@ -76,5 +85,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/navigationbutton.js"></script>
     <script src="scripts/joinbutton.js"></script>
+    <script src="../scripts/weather.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 </html>

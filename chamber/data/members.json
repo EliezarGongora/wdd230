@@ -17,6 +17,69 @@
             "url": "https://www.amazon.com/",
             "icon": "https://www.citypng.com/public/uploads/preview/black-official-amazon-logo-701751694791962sskadamgig.png",
             "membership": "gold"
+        },
+        {
+            "name": "Idaho Websites",
+            "address": "2115 S Vista Avenue Boise ID 83705",
+            "email": "hello@idahowebsites.com",
+            "phone": "(208) 342-9386",
+            "url": "https://idahowebsites.com/",
+            "icon": "idahowebsites",
+            "membership": "silver"
+        },
+        {
+            "name": "Surge Web Disign",
+            "address": "4072 E Arch Drive Merician ID 83646",
+            "email": "",
+            "phone": "(208) 631-0640",
+            "url": "https://surgewebdesign.com/",
+            "icon": "surge-web-design",
+            "membership": "gold"
+        },
+        {
+            "name": "Graphic Zen",
+            "address": "1788 E Summerplace Court Meridian ID 83646",
+            "email": "hi@graphiczen.com",
+            "phone": "(208) 631-4984",
+            "url": "https://graphiczen.com/",
+            "icon": "graphic-zen",
+            "membership": "bronze"
+        },
+        {
+            "name": "Peppershock Media",
+            "address": "1215 3rd Street Nampa ID 83651",
+            "email": "info@peppershock.com",
+            "phone": "(208) 461-5070",
+            "url": "https://peppershock.com/",
+            "icon": "peppershock",
+            "membership": "bronze"
+        },
+        {
+            "name": "Flash Tech Services",
+            "address": "Star Idaho 83669",
+            "email": "",
+            "phone": "(208) 488-5810",
+            "url": "https://flashtechnicalservices.com/",
+            "icon": "flash-tech",
+            "membership": "gold"
+        },
+        {
+            "name": "Metro Express Car Wash",
+            "address": "1725 E Overland Road Meridian ID 83642",
+            "email": "info@metroexpresscarwash.com",
+            "phone": "(208) 888-4073",
+            "url": "https://www.metroexpresscarwash.com/",
+            "icon": "metro-express",
+            "membership": "silver"
+        },
+        {
+            "name": "Holdman Studios South",
+            "address": "Bucaneros 63, Playa Ensenada, 22880 Ensenada, B.C.",
+            "email": "daniela@holdmanstudios.com",
+            "phone": "(646) 174-0349",
+            "url": "https://www.holdmanstudios.com/",
+            "icon": "holdman-studios",
+            "membership": "gold"
         }
         
     ]

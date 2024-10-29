@@ -1,5 +1,4 @@
 const baseURL = "https://eliezargongora.github.io/wdd230/chamber/data/members.json"
-const devurl = "http://127.0.0.1:5500/chamber/data/members.json"
 
 async function getMembers() {
   const response = await fetch(baseURL);
