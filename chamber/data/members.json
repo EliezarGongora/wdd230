@@ -6,7 +6,7 @@
             "email": "help@facebook.com",
             "phone": "650-543-4800",
             "url": "https://www.facebook.com",
-            "icon": "https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg",
+            "icon": "facebook",
             "membership": "silver"
         },
         {
@@ -15,7 +15,7 @@
             "email": "help@amazon.com",
             "phone": "208-234-7652",
             "url": "https://www.amazon.com/",
-            "icon": "https://www.citypng.com/public/uploads/preview/black-official-amazon-logo-701751694791962sskadamgig.png",
+            "icon": "amazon",
             "membership": "gold"
         },
         {
