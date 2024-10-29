@@ -55,4 +55,11 @@
         grid-column: span 2;
     }
 
+	.list section {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr;
+		margin: 0;
+		padding: 0.25rem;
+	}
+
 }

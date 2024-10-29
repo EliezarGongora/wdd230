@@ -16,8 +16,9 @@ function displayMembers(member) {
 
       const iconElement = document.createElement("img")
       iconElement.src = member.icon
-      iconElement.width = 100 
-      iconElement.height = 100
+      iconElement.alt = member.name
+      // iconElement.width = 100 
+      // iconElement.height = 100
       iconElement.classList= "icon"
       card.appendChild(iconElement)
 
@@ -39,7 +40,7 @@ function displayMembers(member) {
       // emailElement.innerText = member.email
       // card.appendChild(emailElement)
 
-     
+      
 
       
       const urllElement = document.createElement("a")
