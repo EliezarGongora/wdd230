@@ -260,7 +260,6 @@ form input[type=submit] {
 /* next section is for companies cards */
 
 .main {
-    display: row;
     text-align: center;
     padding: 16px;
 }
