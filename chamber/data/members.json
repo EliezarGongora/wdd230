@@ -1,21 +1,21 @@
 {
     "companies": [
         {
-            "name": "",
-            "address": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "icon": "",
+            "name": "facebook",
+            "address": "1 Hacker Way, Menlo Park, CA",
+            "email": "help@facebook.com",
+            "phone": "650-543-4800",
+            "url": "https://www.facebook.com",
+            "icon": "https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg",
             "membership": "silver"
         },
         {
-            "name": "",
-            "address": "",
-            "email": "",
-            "phone": "",
-            "url": "",
-            "icon": "",
+            "name": "amazon",
+            "address": "5319 E Franklin Rd, Nampa, ID 83687",
+            "email": "help@amazon.com",
+            "phone": "208-234-7652",
+            "url": "https://www.amazon.com/",
+            "icon": "https://www.citypng.com/public/uploads/preview/black-official-amazon-logo-701751694791962sskadamgig.png",
             "membership": "gold"
         }
         

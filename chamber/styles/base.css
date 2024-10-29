@@ -214,6 +214,65 @@ form input[type=submit] {
     color: #fff;
 }
 
+/* next section is for companies cards */
+
+.members-main {
+    padding: 16px;
+}
+
+.members-main button {
+    padding: 8px;
+}
+
+.members-main button.active {
+    color: blue
+}
+
+#cards {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    gap: 50px;
+    margin: 40px;
+}
+
+
+
+
+#cards.list section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    text-align: left;
+
+}
+
+#cards.list .icon {
+    display: none;
+}
+
+#cards.grid section{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    text-align: center;
+}
+
+#cards.grid .name {
+    display: none;
+}
+
+
+
+#cards img {
+    display: block;
+    margin: auto;
+}
+
+
 footer{
     text-align: center;
 	margin: 20px;

@@ -20,7 +20,8 @@
     <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body>
+<body class="light">
+    <button>Dark</button>
 
     <header class="header">   
 
@@ -38,10 +39,13 @@
             <li><a href="directory.html">Directory</a></li>
         </ul>
     </nav>
-
-    <main>
+   
+    <div class="members-main">
+        <button id="toggle-list">List</button>
+        <button class="active" id="toggle-grid">Grid</button>
+        <div class="grid" id="cards"></div>
        
-    </main>
+    </div>
     
     <footer>
         <p>&copy; 2024<br>Eliezar Gongora</p>
@@ -50,9 +54,6 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/navigationbutton.js"></script>
-    <script src="scripts/links.js"></script>
-    <script src="scripts/weather.js" ></script>
-    <script src="scripts/visits.js" ></script>
     <script src="scripts/members.js" ></script>
 
 </body>
