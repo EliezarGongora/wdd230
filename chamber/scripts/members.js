@@ -15,7 +15,8 @@ function displayMembers(member) {
       card.classList = 'list'
 
       const iconElement = document.createElement("img")
-      iconElement.src = member.icon
+      iconElement.setAttribute('src', `images/${member.icon}.webp`);
+      // iconElement.src = member.icon
       iconElement.alt = member.name
       // iconElement.width = 100 
       // iconElement.height = 100
