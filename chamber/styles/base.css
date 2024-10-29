@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
 }
-title h1{
+
+title h1 {
     color: #000;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,6 +19,11 @@ title h1{
     font-size: 32px;
     text-align: center;
     overflow-wrap:normal;
+}
+
+body.dark main, body.dark .main {
+    background-color: black;
+    color: white;
 }
 
 
@@ -216,15 +222,15 @@ form input[type=submit] {
 
 /* next section is for companies cards */
 
-.members-main {
+.main {
     padding: 16px;
 }
 
-.members-main button {
+.main button {
     padding: 8px;
 }
 
-.members-main button.active {
+.main button.active {
     color: blue
 }
 
@@ -234,8 +240,6 @@ form input[type=submit] {
     gap: 50px;
     margin: 40px;
 }
-
-
 
 
 #cards.list section {
