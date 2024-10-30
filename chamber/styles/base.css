@@ -335,12 +335,13 @@ form input[type=submit] {
 }
 
 #cards.grid section{
-    background-color: #ddd;
+    background-color: rgb(192, 192, 192);
     border: 2px solid #bbb;
     text-align: center;
     padding: 0.5rem;
     border: 1px solid #2d6872;
     font-size: 18PX;
+    border-radius: 10px;
 }
 
 #cards.grid .name {
@@ -348,17 +349,16 @@ form input[type=submit] {
 }
 
 #cards.list  {
-    row-gap: 15px;
     padding-bottom: 10px;
-    /* background-color: #ddd; */
-    /* padding: 10px; */
     text-align: left;
-    /* margin: 10px; */
     grid-template-columns: 1fr  ;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: rgb(138, 138, 236);
+   
 }
 
 .list {
@@ -383,8 +383,8 @@ form input[type=submit] {
 } */
 
 .calendar-header {
-    color: rgba(255, 255, 255, 0.7);
-    background-color: navy;
+    color: rgba(218, 236, 253, 0.7);
+    background-color: rgb(95, 95, 243);
     border-radius: 10px;
 }
 
@@ -409,7 +409,7 @@ form input[type=submit] {
     justify-content: center;
     height: 25px;
     font-weight: 600;
-    color: #262626;
+    color: #b8b8b8;
 }
 
 /* .calendar-day:nth-child(1) {
@@ -421,11 +421,11 @@ form input[type=submit] {
     align-items: center;
     justify-content: center;
     height: 25px;
-    color: #262626;
+    color: #646464;
 }
 
 .calendar-number:nth-child(7n-6) {
-    color:navy;
+    color:orange;
     font-weight: 700;
 }
 
@@ -482,9 +482,6 @@ form input[type=submit] {
 }
 
 
-#disco{
-    background-color: orange
-}
 
 
 
