@@ -88,7 +88,16 @@
 
 	/* next section is for discover page */
 
+	.content {
+		grid-area: content;
+	}
+
+	.picture figure {
+        transition: 1s ease;
+    }
+
 	.wrapper {
+		display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "sidebar content content";
     }
@@ -100,7 +109,7 @@
         transition: 1s ease;
     }
 
-	.wrapper {
+	.wraper{
 		display: grid;
 		padding: 50px 0;
 	}

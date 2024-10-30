@@ -442,7 +442,7 @@ form input[type=submit] {
 
 
 
-/*  */
+
 
 #discostyle, #facts,  #play, #events, #stay, #calendar{
     border-radius: 15px;
@@ -485,6 +485,7 @@ form input[type=submit] {
 #disco{
     background-color: orange
 }
+
 
 
 footer{
