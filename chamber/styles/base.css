@@ -232,7 +232,9 @@ form {
     margin: auto;
     margin-top: 1rem;
     width: 90%;
-    max-width: 600px;
+    max-width: 500px;
+    border-radius: 10px;
+
 }
 
 fieldset {
@@ -299,6 +301,11 @@ form input[type=submit] {
     color: #fff;
 }
 
+#una{
+    background-color: orange;
+}
+
+
 /* next section is for companies cards */
 
 .main {
@@ -343,10 +350,10 @@ form input[type=submit] {
 #cards.list  {
     row-gap: 15px;
     padding-bottom: 10px;
-    background-color: #ddd;
-    border: 1px solid #bbb;
-    padding: 5px;
+    /* background-color: #ddd; */
+    /* padding: 10px; */
     text-align: left;
+    /* margin: 10px; */
     grid-template-columns: 1fr  ;
 }
 
@@ -364,6 +371,7 @@ form input[type=submit] {
     display: none;
 
 }
+
 
 /* calendar */
 
@@ -439,8 +447,6 @@ form input[type=submit] {
 .discostyle, #facts,  #play, #events, #stay, #calendar{
     border-radius: 15px;
     margin: 10px;
-    box-shadow: #262626 10px;
-    box-shadow: 0 0 10px 1px #777;
     box-shadow: 0 0 10px 1px #777;
     margin-left: 25px;
     margin-right: 25px;
